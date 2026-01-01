@@ -1,0 +1,100 @@
+---
+title: Introduction to Personal
+description: Overview of Personal's documentation space, its purpose, and key features for managing project documentation.
+---
+
+## Overview
+
+Welcome to Personal, your dedicated documentation space. You can organize, manage, and collaborate on all project documentation in one place. Personal provides a rich editing experience with version control, search, and sharing capabilities tailored for teams and individual developers.
+
+Personal eliminates scattered notes and outdated wikis by centralizing everything. Create pages, embed code snippets, and track changes effortlessly.
+
+## Key Features
+
+Personal offers powerful tools to streamline your documentation workflow.
+
+<Columns cols={3}>
+  <Card title="Rich Editor" icon="edit-3" href="#rich-editor">
+    Write with markdown, add embeds, and format with real-time previews.
+  </Card>
+  <Card title="Version History" icon="git-branch" href="#version-history">
+    Track changes, revert edits, and maintain audit trails.
+  </Card>
+  <Card title="Collaboration" icon="users" href="#collaboration">
+    Invite team members, comment, and resolve suggestions.
+  </Card>
+  <Card title="Search & Navigation" icon="search" href="#search">
+    Full-text search across all docs with smart navigation.
+  </Card>
+</Columns>
+
+## Quick Start
+
+Get up and running in minutes.
+
+<Steps>
+  <Step title="Create Account" icon="user-plus">
+    Sign up at `https://app.personal.com` with your email.
+  </Step>
+  <Step title="New Workspace" icon="plus">
+    Create a new documentation space for your project.
+  </Step>
+  <Step title="First Page" icon="file-plus">
+    Click "New Page" and start writing with markdown support.
+  </Step>
+  <Step title="Publish" icon="globe">
+    Share your docs via public links or embed them.
+  </Step>
+</Steps>
+
+<Callout kind="tip">
+  Explore the full editor features by creating your first page today.
+</Callout>
+
+## Navigation Guide
+
+Access core sections easily.
+
+<Tabs>
+  <Tab title="Sidebar" icon="menu">
+    Use the left sidebar for pages, search, and settings. Pin frequently used docs.
+  </Tab>
+  <Tab title="Search" icon="search">
+    Press `<kbd>Ctrl</kbd>+<kbd>K</kbd>` (or `<kbd>Cmd</kbd>+<kbd>K</kbd>` on macOS) for instant search.
+  </Tab>
+  <Tab title="Quick Links" icon="link">
+    <Columns cols={2}>
+      <Card title="Quickstart" icon="zap" href="/quickstart">
+        Set up your first project.
+      </Card>
+      <Card title="Guides" icon="book-open" href="/guides">
+        Learn advanced features.
+      </Card>
+    </Columns>
+  </Tab>
+</Tabs>
+
+## Embed Examples
+
+Integrate Personal docs into your apps.
+
+<CodeGroup tabs="JavaScript,Python">
+  ```javascript
+  // Embed a Personal page
+  embedPersonalDoc('doc-id-here', {
+    theme: 'light',
+    height: '500px'
+  });
+  ```
+  ```python
+  # Python embed via iframe
+  iframe_src = "https://app.personal.com/embed/doc-id-here"
+  print(f'<iframe src="{iframe_src}" height="500"></iframe>')
+  ```
+</CodeGroup>
+
+<Expandable title="Advanced Navigation Tips" default-open="false">
+  Customize your sidebar with folders and tags. Use `@mentions` for quick team links.
+</Expandable>
+
+Personal scales with your projects—from solo notes to team handbooks. Dive into [Quickstart](/quickstart) next.
